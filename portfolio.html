@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<body>
+    <header class="header">
+
+        <a href="#" class ="name"><span>Manasa Gorle</span></a> 
+        <ul class = "navbar-links">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#exp">Experience</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>  
+        <i class="fa-solid fa-bars" id="menu-icon"></i> 
+        <button class = "visit-btn1">View Github</button>        
+    </header>
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="image.jpg" alt="My profile">
+            <div class="Info-me">
+                <div class="text">
+                    <h3>Hi, I'm</h3>
+                    <h1>Manasa Gorle</h1>
+                    <span>Aspiring Data Scientist</span>
+                </div>
+                <div class="btn-group">
+                    <div class="btn">Download Cv</div>
+                    <div class="btn">Contact</div>
+                </div>
+                <div class="Socials"> 
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="exp" class="exp">
+        <h2 class="section-title">Experience</h2>
+        <div class="exp-info">
+            <div class="grid">
+                
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i> <br>
+                    <span>Data Analyst Intern</span> <br>
+                    <h3>6 Months</h3> <br>
+                    <p>Utilized dataset to the fullest, Python for preprocessing and analysis,
+                    Successfully deployed a quality project, focusing on efficiency
+                    and accuracy in data analysis significantly enhancing the
+                    power of visualization</p>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-file-code"></i>
+                    <span>ML Intern</span>
+                    <h3>6 Months</h3> <br>
+                    <p>Employed data preprocessing techniques like one-hot encoding
+                    normalization etc and deploying models like kmeans algorithm,
+                    random forest and logistic regression
+                    </p>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-list"></i>
+                    <span>Aner Group Trainee</span> <br>
+                    <h2></h2> <br>
+                    <p>Training as an Associate Software Developer </p>
+                </div>
+
+        </div>
+        <img src="manasa.jpg" alt="">
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="project1.jpg" alt="project_1">
+                <h3>Netflix Tableau Dashboard</h3>
+                <p>Analysed tge number of deaths occured due to the total number 
+                of false negative and false positive 
+                covid cases in india. Used sets, joins and other features
+                </p>
+                <div class="btn-group">
+                    <div class="btn">prj-link</div>
+                    <div class="btn">github link</div>
+                </div>
+
+            </div>
+            
+            <div class="project-card">
+                <img src="project2.jpg" alt="">
+                <h3>Aerofit_threadmill Exploratory Data Analysis</h3>
+                <p>Implemented different Hypothesis testing Methods like chisquard test, 
+                Anova, t-test and z-test to accept or reject null hypothesis and 
+                calculated p_value and compared with alpha. Did visualization of data 
+                using qqplots, Scatterplot.
+
+                </p>
+                <div class="btn-group">
+                    <div class="btn">prj-link</div>
+                    <div class="btn">github link</div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="nn.jpg" alt="">
+                <h3>Audio Super Resolution using Neural Networks</h3>
+                <p>Employed Convolutional Neural Networks algorithm to Up-Sample and 
+                Down-Sample the audio files in deleting noise frequencies on platform 
+                interface google cloud
+                </p>
+                <div class="btn-group">
+                    <div class="btn">prj-link</div>
+                    <div class="btn">github link</div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="project3.jpg" alt="">
+                <h3>Target SQL Project </h3>
+                <p>Employed Advanced SQL concepts like window functions , 
+                recursive cte to predict profit of SuperStore Company 
+                Target Using Big Query 
+                </p>
+                <div class="btn-group">
+                    <div class="btn">prj-link</div>
+                    <div class="btn">github link</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="input-box">
+            <section-title>Contact Me</section-title>
+            <div class="input">
+                <input type="text">
+                <i class="fa-solid fa-envelop"></i>
+            </div>
+            <div class="btn">Submit</div>
+        </div>
+
+    </section>
+    <footer>
+        <ul>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#exp">Experience</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <p class="copyright"><i class="fa-solid fa-copyright"></i> All Rights Reserved | Manasa Gorle</p>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
